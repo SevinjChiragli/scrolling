@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#div1,
+#div2,
+#div3 {
+  height: 1000px;
+  width: 100px;
+}
+#div1 {
+  background-color: red;
+}
+#div2 {
+  background-color: blue;
+}
+#div3 {
+  background-color: green;
+}
+#navigate {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right: 50px;
+  top: 50%;
+}
+
+#navigate span {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+}
